@@ -1,0 +1,28 @@
+<div class="container">
+        <h1>CALCULADORA</h1>
+        <hr>
+        <form>
+            <label>Número 1</label>
+            <input type="number" max="10000" min="0" placeholder="0" id="numero1" autofocus>
+            <label>Número 2</label>
+            <input type="number" max="10000" min=0   placeholder="0" id="numero2">
+            <hr>
+            <input type="button" class="btn btn-dark w-25" onclick="Sumar()" value="Sumar" required>
+            <input type="button" class="btn btn-dark w-25" onclick="Restar()" value="Restar" required>
+            <input type="button" class="btn btn-dark w-25" onclick="Multiplicar()" value="Multiplicar" required>
+            <hr>
+            <input type="button" class="btn btn-dark w-25" onclick="Division()" value="Division" required>
+            <input type="button" class="btn btn-dark w-25" onclick="Potenciacion()" value="Potenciacion" required>
+            <input type="button" class="btn btn-dark w-25" onclick="Concatenacion()" value="Concatenacion" required>
+            <hr>
+            <input type="button" class="btn btn-dark w-25" onclick="Instruccion_if()" value="Instruccion_if" required>
+            <input type="button" class="btn btn-dark w-25" onclick="Instruccion_for()" value="Instruccion_for" required>
+            <input type="button" class="btn btn-dark w-25" onclick="Instruccion_switch()" value="Instruccion_switch" required>
+            <hr>
+        </form>
+    </div>
+    <!--EN ESTE DIV APARECERAN LOS RESULTADOS-->
+    <div id="Resultado" class="container"></div>
+    <script src="calculadora.js"></script>
+</body>
+</html>
